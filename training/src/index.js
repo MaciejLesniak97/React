@@ -1,11 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import App from "./components/App"
+import style from "./components/style.css"
 
 //JSX
-ReactDOM.render(
-  <ul>
-    <li>"haha"</li>
-    <li>"hahah"</li>
-    <li>"hahahah"</li>
-  </ul>, document.getElementById("root")
-  )
+ReactDOM.render(<App />, document.getElementById("root"))
