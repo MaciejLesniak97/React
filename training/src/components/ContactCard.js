@@ -11,5 +11,3 @@ function ContactCard(props) {
     )
 }
 
-export default ContactCard
-
